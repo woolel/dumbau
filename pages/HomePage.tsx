@@ -98,7 +98,7 @@ const HomePage: React.FC = () => {
     <div className="mr-10">
       <img
         className="rounded-lg min-w-[100px] w-full h-auto md:w-auto md:h-auto"
-        src="https://iili.io/K2Y5nUP.png"
+        src="https://iili.io/K2wTkzv.png"
         alt=""
       />
     </div>
