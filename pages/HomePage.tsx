@@ -103,10 +103,10 @@ const HomePage: React.FC = () => {
       />
     </div>
     <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[50%]">
-      <h1 className="font-bold text-3xl mt-6">
+      <h1 className="font-bold text-3xl mt-6 mb-10">
         덤바우는 우리 부부의 생태 농장입니다.
       </h1>
-      <p className="w-full sm:w-[35rem] md:w-[30rem] lg:w-[25rem] mb-10">
+      <p className="w-full sm:w-[35rem] md:w-[30rem] lg:w-[25rem] ">
         흙은 지구의 물질 순환과 에너지 흐름에 핵심적인 역할을 하는 역동적인 생태계입니다.
         지상 못지 않은 거대한 생태 도서관과 다르지 않아 지구의 역사를 고스란히 담고 있습니다.
         식물은 약 4억 7천만 년 전 지상과 지하를 꿰뚫으며 지상에 우뚝 섰는데, 흙과 빛을
