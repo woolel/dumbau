@@ -6,10 +6,12 @@ import HomePage from './pages/HomePage';
 import OrderPage from './pages/OrderPage';
 import { PageType } from './types';
 import { ORDER_PAGE_CONFIG } from './constants';
+import ScrollToTop from './components/ScrollToTop';
 
 const App: React.FC = () => {
   return (
     <HashRouter>
+      <ScrollToTop />
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
