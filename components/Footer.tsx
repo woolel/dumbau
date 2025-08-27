@@ -1,0 +1,33 @@
+import React from 'react';
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="bg-teal-900 text-teal-100">
+      <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+          <div>
+            <h3 className="text-xl font-bold text-white">덤바우</h3>
+            <p className="mt-2 text-sm text-teal-200">밭에서 식탁까지, 신선함을 배달합니다.</p>
+          </div>
+          <div className="text-sm">
+             <h4 className="font-semibold text-white tracking-wider uppercase">연락처</h4>
+             <div className="mt-2 space-y-1 text-teal-200">
+                <p><span className="font-medium text-white">계좌:</span> 농협 737033-56-041817 (김선미)</p>
+                <p><span className="font-medium text-white">전화:</span> 010-7238-5181</p>
+                <p><span className="font-medium text-white">이메일:</span> hello@farmfreshrevolution.com</p>
+             </div>
+          </div>
+          <div>
+            <h4 className="font-semibold text-white tracking-wider uppercase">오시는 길</h4>
+            <p className="mt-2 text-sm text-teal-200">123 Flavor Lane, Metropolis, CA 90210</p>
+          </div>
+        </div>
+        <div className="mt-10 pt-8 border-t border-teal-800 text-center text-xs text-teal-300">
+          <p>&copy; 2024 덤바우. 모든 권리 보유.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
