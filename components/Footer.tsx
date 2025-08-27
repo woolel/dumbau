@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-teal-800 text-center text-xs text-teal-300">
-          <p>&copy; 2024 덤바우. 모든 권리 보유.</p>
+          <p>&copy; 2024 덤바우.</p>
         </div>
       </div>
     </footer>

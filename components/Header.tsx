@@ -36,7 +36,7 @@ const Header: React.FC = () => {
               to="/onion"
               className="hidden sm:block bg-teal-500 rounded-full px-6 py-2.5 text-sm font-medium text-white hover:bg-teal-600 transition-colors shadow"
             >
-              바로 구매
+              장보기
             </Link>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
