@@ -90,22 +90,21 @@ const HomePage: React.FC = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section className="mt-20">
-  <div
-    id="container"
-    className="p-20 sm:p-16 md:p-20 lg:p-24 xl:p-20 w-auto flex flex-col md:flex-row px-4 sm:px-8 md:px-24 lg:px-24 xl:px-24 relative"
-  >
-    <div className="mr-10">
-      <img
-        className="rounded-lg min-w-[100px] w-full h-auto md:w-auto md:h-auto"
-        src="https://iili.io/K2wTkzv.png"
-        alt=""
-      />
+<div className="sm:flex items-center max-w-screen-xl">
+  <div className="sm:w-1/2 p-10">
+    <div className="image object-center text-center">
+      <img src="https://iili.io/K2wTkzv.png" />
     </div>
-    <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[50%]">
+  </div>
+  <div className="sm:w-1/2 p-5">
+    <div className="text">
+      <span className="text-gray-500 border-b-2 border-indigo-600 uppercase">
+        About us
+      </span>
       <h1 className="font-bold text-3xl mt-6 mb-10">
         덤바우는 우리 부부의 생태 농장입니다.
       </h1>
-      <p className="w-full sm:w-[35rem] md:w-[30rem] lg:w-[25rem] ">
+      <p className="text-gray-700">
         흙은 지구의 물질 순환과 에너지 흐름에 핵심적인 역할을 하는 역동적인 생태계입니다.
         지상 못지 않은 거대한 생태 도서관과 다르지 않아 지구의 역사를 고스란히 담고 있습니다.
         식물은 약 4억 7천만 년 전 지상과 지하를 꿰뚫으며 지상에 우뚝 섰는데, 흙과 빛을
@@ -113,10 +112,9 @@ const HomePage: React.FC = () => {
         말하자면 사서입니다. 어려운 일이었고, 지금도 여전히 버겁습니다만 책 한권을
         권하듯이 작물을 여러분과 나눌 수 있어 즐겁습니다.   
       </p>
-      
     </div>
   </div>
-
+</div>
       </section>
       
       {/* Features Section */}
