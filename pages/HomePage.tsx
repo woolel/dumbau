@@ -90,7 +90,6 @@ const HomePage: React.FC = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section className="">
-<div id="container" className="p-20 w-auto flex px-24 justify-center relative">
   <div
     id="container"
     className="p-20 sm:p-16 md:p-20 lg:p-24 xl:p-20 w-auto flex flex-col md:flex-row px-4 sm:px-8 md:px-24 lg:px-24 xl:px-24 relative"
@@ -117,7 +116,7 @@ const HomePage: React.FC = () => {
       
     </div>
   </div>
-</div>
+
       </section>
       
       {/* Features Section */}
