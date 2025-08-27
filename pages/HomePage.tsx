@@ -99,11 +99,11 @@ const HomePage: React.FC = () => {
       <img
         className="rounded-lg min-w-[100px] w-full h-auto md:w-auto md:h-auto"
         src="https://iili.io/K2Y5nUP.png"
-        alt="image of myself"
+        alt=""
       />
     </div>
     <div className="w-full sm:w-[70%] md:w-[60%] lg:w-[50%]">
-      <h1 className="font-bold text-3xl mt-6 mb-8">
+      <h1 className="font-bold text-3xl mt-6">
         덤바우는 우리 부부의 생태 농장입니다.
       </h1>
       <p className="w-full sm:w-[35rem] md:w-[30rem] lg:w-[25rem] mb-10">
