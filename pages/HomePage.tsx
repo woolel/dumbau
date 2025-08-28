@@ -115,49 +115,22 @@ const HomePage: React.FC = () => {
   </div>
 </div>
       </section>
-      
+
+      {/* TOC Section */}
+      <section className="">
+
+      </section>      
+
       {/* Features Section */}
       <section>
       
       <div className="w-full bg-cover h-screen  bg-center" 
-      style={{ backgroundImage: 'url("https://iili.io/K30jD11.jpg")' }}>
+      style={{ backgroundImage: 'url("https://iili.io/K3EKimB.png")' }}>
       </div>
 
       </section>
 
-      {/* Products Section */}
-      <section id="products" className="">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionIntro category="제철 특선" title="태양의 맛" subtitle="자연 최고의 맛을 만끽하세요. 우리의 디지털 식료품 저장실은 색과 맛으로 가득 차 있습니다." />
-          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {products.map((product, index) => (
-              <div key={product.title} className="relative group">
-                <span className="absolute top-0 left-0 -mt-2 -ml-2 text-8xl font-black text-gray-200/50 opacity-70 z-0">
-                  0{index + 1}
-                </span>
-                <div className="relative z-10 p-4 pt-12">
-                  <div className="bg-white p-4 rounded-2xl shadow-lg dotted-border group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="overflow-hidden rounded-xl">
-                      <img src={product.imageUrl} alt={product.title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"/>
-                    </div>
-                    <div className="mt-4 flex justify-between items-center">
-                       <div>
-                          <h3 className="text-lg font-bold text-slate-800">{product.title}</h3>
-                          <p className="text-slate-500">{product.price}</p>
-                       </div>
-                       <Link to={product.linkTo} className="bg-teal-500 text-white rounded-full p-3 hover:bg-teal-600 transition-colors">
-                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
-                          </svg>
-                       </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* FAQ Section */}
       <section className="py-16 sm:py-24 bg-white">
