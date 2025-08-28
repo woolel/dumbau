@@ -122,22 +122,21 @@ const HomePage: React.FC = () => {
 <div className="container mx-auto p-4 sm:p-8">
   <div className="max-w-xl mx-auto bg-white rounded-lg shadow-xl p-6 sm:p-10 bg-[url('https://iili.io/KJoCNdx.png')] bg-cover bg-center">
     {/* TOC Header */}
-    <h1 className="text-3xl sm:text-4xl font-bold font-serif text-gray-800 border-b-2 border-gray-200 pb-4 mb-8">
-      Table of Contents
-    </h1>
+    <h3 className="text-xl sm:text-xl font-bold text-gray-800 border-b-2 border-gray-200 pb-4 mb-8">
+      목 차
+    </h3>
     {/* TOC List */}
     <ul className="space-y-4 text-gray-700">
       {/* Chapter 1 - Top Level */}
       <li>
-        <a
-          href="#chapter1"
+        <Link to="/green-chili" 
           className="flex justify-between items-baseline text-lg font-medium text-gray-800 hover:text-blue-600 transition-colors duration-200"
         >
           <span className="pr-2">1. The Beginning</span>
           {/* 점선: flex-grow가 남은 공간을 모두 채웁니다. */}
           <span className="flex-grow mx-2 border-b border-dotted border-gray-400" />
           <span className="pl-2 font-sans font-bold">할랖피뇨</span>
-        </a>
+        </Link>
       </li>
       {/* Chapter 2 - With Sub-sections */}
       <li>
