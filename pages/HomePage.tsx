@@ -91,7 +91,7 @@ const HomePage: React.FC = () => {
       {/* Hero Section */}
       <section className="mt-20">
 <div className="sm:flex items-center max-w-screen-xl">
-  <div className="sm:w-1/2 p-10 md:p-0">
+  <div className="sm:w-1/2 p-20 md:p-0">
     <div className="image object-center text-center">
       <img src="https://iili.io/K2wTkzv.png" />
     </div>
