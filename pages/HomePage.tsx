@@ -119,8 +119,8 @@ const HomePage: React.FC = () => {
       {/* Features Section */}
       <section>
       
-      <div className="w-full bg-cover h-screen  bg-right" 
-      style={{ backgroundImage: 'url("https://iili.io/K30JZv9.jpg")' }}>
+      <div className="w-full bg-cover h-screen  bg-center" 
+      style={{ backgroundImage: 'url("https://iili.io/K30jD11.jpg")' }}>
       </div>
 
       </section>
