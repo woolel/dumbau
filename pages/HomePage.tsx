@@ -98,7 +98,7 @@ const HomePage: React.FC = () => {
   </div>
   <div className="sm:w-1/2 p-5">
     <div className="text">
-      <span className="text-gray-500 border-b-2 border-lime-600 uppercase">
+      <span className="text-gray-500 border-b-2 border-lime-800 uppercase">
         About us
       </span>
       <h1 className="font-bold text-3xl mt-6 mb-10">
