@@ -93,7 +93,7 @@ const HomePage: React.FC = () => {
 <div className="sm:flex items-center max-w-screen-xl">
   <div className="sm:w-1/2 p-0 md:p-20">
     <div className="image object-center text-center">
-      <img src="https://iili.io/KF4wpIa.png" />
+      <img src="https://iili.io/KF4Siw7.png" />
     </div>
   </div>
   <div className="sm:w-1/2 p-5">
