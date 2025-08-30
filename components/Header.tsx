@@ -75,7 +75,7 @@ const Header: React.FC = () => {
              <Link
               to="/onion"
               onClick={() => setIsMenuOpen(false)}
-              className="block w-full mt-4 text-center bg-lime-500 rounded-full px-6 py-3 text-sm font-medium text-white hover:bg-line-200 transition-colors shadow"
+              className="block w-full mt-4 text-center bg-lime-800 rounded-full px-6 py-3 text-sm font-medium text-white hover:bg-lime-200 transition-colors shadow"
             >
               바로 구매
             </Link>

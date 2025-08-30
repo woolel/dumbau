@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <h3 className="text-xl font-bold text-white">덤바우</h3>
-            <p className="mt-2 text-sm text-teal-200">밭에서 식탁까지, 신선함을 배달합니다.</p>
+            <p className="mt-2 text-sm text-teal-200">이웃들과 함께 하는 생태 농장</p>
           </div>
           <div className="text-sm">
              <h4 className="font-semibold text-white tracking-wider uppercase">연락처</h4>
@@ -18,12 +18,12 @@ const Footer: React.FC = () => {
              </div>
           </div>
           <div>
-            <h4 className="font-semibold text-white tracking-wider uppercase">오시는 길</h4>
-            <p className="mt-2 text-sm text-teal-200">123 Flavor Lane, Metropolis, CA 90210</p>
+            <h4 className="font-semibold text-white tracking-wider uppercase"> </h4>
+            <p className="mt-2 text-sm text-teal-200"> </p>
           </div>
         </div>
         <div className="mt-10 pt-8 border-t border-teal-800 text-center text-xs text-teal-300">
-          <p>&copy; 2024 덤바우.</p>
+          <p>&copy; 2024 덤바우</p>
         </div>
       </div>
     </footer>
