@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-4">
             <Link
               to="/onion"
-              className="hidden sm:block bg-gray-500 rounded-full px-6 py-2.5 text-sm font-medium text-white hover:bg-teal-600 transition-colors shadow"
+              className="hidden sm:block border border-gray-200 bg-gray-200 text-gray-700 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-300 focus:outline-none focus:shadow-outline"
             >
               장보기
             </Link>
