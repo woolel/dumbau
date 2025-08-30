@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
              <div className="mt-2 space-y-1 text-teal-200">
                 <p><span className="font-medium text-white">계좌:</span> 농협 737033-56-041817 (김선미)</p>
                 <p><span className="font-medium text-white">전화:</span> 010-7238-5181</p>
-                <p><span className="font-medium text-white">이메일:</span> hello@farmfreshrevolution.com</p>
+                <p><span className="font-medium text-white">이메일:</span> ykwoo3@gmail.com</p>
              </div>
           </div>
           <div>
