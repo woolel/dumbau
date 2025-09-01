@@ -90,6 +90,7 @@ const HomePage: React.FC = () => {
     <div className="overflow-x-hidden">
       {/* Hero Section */}
       <section className="mt-20">
+      
 <div className="sm:flex items-center max-w-screen-xl">
   <div className="sm:w-1/2 p-0 md:p-20">
     <div className="image object-center text-center">
