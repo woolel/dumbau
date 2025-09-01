@@ -121,15 +121,15 @@ const HomePage: React.FC = () => {
 
 <>
   {/* Icon Blocks */}
-  <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <div className="max-w-[85rem] px-4 py-5 sm:px-6 lg:px-8 lg:py-6 mx-auto">
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6">
       {/* Card */}
       <a
-        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
         href="#"
       >
         <svg
-          className="shrink-0 size-8 text-gray-800 mt-0.5 me-6 dark:text-neutral-200"
+          className="shrink-0 size-8 text-gray-800 mt-0.5 me-6"
           xmlns="http://www.w3.org/2000/svg"
           width={24}
           height={24}
@@ -148,14 +148,14 @@ const HomePage: React.FC = () => {
         </svg>
         <div>
           <div>
-            <h3 className="block font-bold text-gray-800 dark:text-white">
+            <h3 className="block font-bold text-gray-800">
               Build your portfolio
             </h3>
-            <p className="text-gray-600 dark:text-neutral-400">
+            <p className="text-gray-600">
               The simplest way to keep your portfolio always up-to-date.
             </p>
           </div>
-          <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-neutral-200">
+          <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
             Learn more
             <svg
               className="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1"
@@ -177,11 +177,11 @@ const HomePage: React.FC = () => {
       {/* End Card */}
       {/* Card */}
       <a
-        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
         href="#"
       >
         <svg
-          className="shrink-0 size-8 text-gray-800 mt-0.5 me-6 dark:text-neutral-200"
+          className="shrink-0 size-8 text-gray-800 mt-0.5 me-6"
           xmlns="http://www.w3.org/2000/svg"
           width={24}
           height={24}
@@ -198,14 +198,14 @@ const HomePage: React.FC = () => {
         </svg>
         <div>
           <div>
-            <h3 className="block font-bold text-gray-800 dark:text-white">
+            <h3 className="block font-bold text-gray-800">
               Get freelance work
             </h3>
-            <p className="text-gray-600 dark:text-neutral-400">
+            <p className="text-gray-600">
               New design projects delivered to your inbox each morning.
             </p>
           </div>
-          <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-neutral-200">
+          <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
             Learn more
             <svg
               className="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1"
@@ -227,11 +227,11 @@ const HomePage: React.FC = () => {
       {/* End Card */}
       {/* Card */}
       <a
-        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
+        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
         href="#"
       >
         <svg
-          className="shrink-0 size-8 text-gray-800 mt-0.5 me-6 dark:text-neutral-200"
+          className="shrink-0 size-8 text-gray-800 mt-0.5 me-6"
           xmlns="http://www.w3.org/2000/svg"
           width={24}
           height={24}
@@ -250,15 +250,15 @@ const HomePage: React.FC = () => {
         </svg>
         <div>
           <div>
-            <h3 className="block font-bold text-gray-800 dark:text-white">
+            <h3 className="block font-bold text-gray-800">
               Sell your goods
             </h3>
-            <p className="text-gray-600 dark:text-neutral-400">
+            <p className="text-gray-600">
               Get your goods in front of millions of potential customers with
               ease.
             </p>
           </div>
-          <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800 dark:text-neutral-200">
+          <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
             Learn more
             <svg
               className="shrink-0 size-4 transition ease-in-out group-hover:translate-x-1 group-focus:translate-x-1"
