@@ -67,7 +67,7 @@ const Header: React.FC = () => {
                 to={link.path}
                 onClick={() => setIsMenuOpen(false)}
                 style={({ isActive }) => (isActive ? activeLinkStyle : { color: '#334155' })} // slate-700
-                className="hover:bg-teal-100/50 block px-3 py-3 rounded-md text-base font-medium transition-colors"
+                className="hover:bg-gray-100/50 block px-3 py-3 rounded-md text-base font-medium transition-colors"
               >
                 {link.name}
               </NavLink>
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
               onClick={() => setIsMenuOpen(false)}
               className="block w-full mt-4 text-center bg-lime-800 rounded-full px-6 py-3 text-sm font-medium text-white hover:bg-lime-200 transition-colors shadow"
             >
-              바로 구매
+              장보기
             </Link>
           </div>
         </div>
