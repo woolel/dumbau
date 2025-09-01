@@ -59,7 +59,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden absolute top-24 left-0 right-0 bg-[#F0FDF4] shadow-lg">
+        <div className="md:hidden absolute top-24 left-0 right-0 bg-lime-100 shadow-lg">
           <div className="px-4 pt-2 pb-4 space-y-1">
             {NAV_LINKS.map((link) => (
               <NavLink

@@ -100,7 +100,7 @@ const HomePage: React.FC = () => {
   <div className="sm:w-1/2 p-5">
     <div className="text">
       <span className="text-gray-500 border-b-2 border-lime-800 uppercase">
-        About us
+        introduction
       </span>
       <h1 className="font-bold text-3xl mt-6 mb-10">
         덤바우는 우리 부부의 생태 농장입니다.
@@ -126,7 +126,7 @@ const HomePage: React.FC = () => {
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6">
       {/* Card */}
       <a
-        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
+        className="group flex gap-y-6 size-full hover:bg-lime-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
         href="#"
       >
         <svg
@@ -178,7 +178,7 @@ const HomePage: React.FC = () => {
       {/* End Card */}
       {/* Card */}
       <a
-        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
+        className="group flex gap-y-6 size-full hover:bg-lime-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
         href="#"
       >
         <svg
@@ -228,7 +228,7 @@ const HomePage: React.FC = () => {
       {/* End Card */}
       {/* Card */}
       <a
-        className="group flex gap-y-6 size-full hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
+        className="group flex gap-y-6 size-full hover:bg-lime-100 focus:outline-hidden focus:bg-gray-100 rounded-lg p-5"
         href="#"
       >
         <svg
