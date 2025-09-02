@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-4">
             <Link
               to="/onion"
-              className="hidden sm:block border border-lime-200 bg-lime-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-lime-300 focus:outline-none focus:shadow-outline"
+              className="hidden sm:block border border-lime-200 bg-lime-600 text-white rounded-md px-2 py-2  transition duration-500 ease select-none hover:bg-lime-800 focus:outline-none focus:shadow-outline"
             >
               장보기
             </Link>
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
              <Link
               to="/onion"
               onClick={() => setIsMenuOpen(false)}
-              className="block w-full mt-4 text-center bg-lime-800 rounded-full px-6 py-3 text-sm font-medium text-white hover:bg-lime-200 transition-colors shadow"
+              className="block w-full mt-4 text-center bg-lime-600 rounded-full px-6 py-3 text-sm font-medium text-white hover:bg-lime-800 transition-colors shadow"
             >
               장보기
             </Link>

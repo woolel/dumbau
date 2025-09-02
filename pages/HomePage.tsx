@@ -106,6 +106,7 @@ const HomePage: React.FC = () => {
         덤바우는 우리 부부의 생태 농장입니다.
       </h1>
       <p className="text-gray-700 text-lg">
+  
         흙은 거대한 생태 도서관이어서 지구의 역사를 고스란히 담고 있습니다.
         약 4억 7천만 년 전 식물은 지상과 지하를 꿰뚫으며 우뚝 서 흙과 빛, 공기를
         전혀 새로운 기운으로 바꾸어 놓았습니다. 덤바우는 이 역사가 새겨진 작은 책갈피이고, 우리 부부는
@@ -120,7 +121,6 @@ const HomePage: React.FC = () => {
 
       <section className="">
 
-<>
   {/* Icon Blocks */}
   <div className="max-w-[85rem] px-4 py-5 sm:px-6 lg:px-8 lg:py-6 mx-auto">
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center gap-6">
@@ -282,7 +282,7 @@ const HomePage: React.FC = () => {
     </div>
   </div>
   {/* End Icon Blocks */}
-</>
+
 
 
       </section>      
