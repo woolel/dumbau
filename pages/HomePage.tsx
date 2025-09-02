@@ -117,7 +117,7 @@ const HomePage: React.FC = () => {
 </div>
       </section>
 
-      {/* TOC Section */}
+
       <section className="">
 
 <>
