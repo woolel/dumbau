@@ -12,7 +12,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-slate-100">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-24">
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold text-slate-800 hover:opacity-80 transition-opacity">
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       {isMenuOpen && (
-        <div className="md:hidden absolute top-24 left-0 right-0 shadow-lg">
+        <div className="md:hidden absolute top-24 left-0 right-0 shadow-lg bg-slate-100">
           <div className="px-4 pt-2 pb-4 space-y-1">
             {NAV_LINKS.map((link) => (
               <NavLink
