@@ -19,7 +19,7 @@ const Header: React.FC = () => {
               덤바우
             </Link>
           </div>
-          <nav className="hidden md:flex items-center bg-slate-100 space-x-8">
+          <nav className="hidden md:flex items-center space-x-8">
             {NAV_LINKS.slice(1,4).map((link) => (
                <NavLink
                 key={link.name}
